@@ -105,13 +105,6 @@ function App() {
               </div>
             </h1>
 
-            {/* <p className="text-2xl text-gray-700 font-medium mb-2 animate-pulse ml-[-20px]">
-              Discover places that match your
-              <span className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
-                "cosmic energy"
-              </span>
-              <span className="animate-pulse ml-1">✨</span>
-            </p> */}
             <div className="flex justify-center">
               <p className="text-2xl text-gray-700 font-medium mb-2 animate-pulse -mr-10">
                 Discover places that match your
