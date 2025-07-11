@@ -98,20 +98,29 @@ function App() {
         <div className="max-w-7xl mx-auto">
           {/* Epic Header */}
           <div className="text-center mb-12">
-            <h1 className="text-5xl font-bold bg-gradient-to-r from-purple-600 via-blue-600 to-pink-600 bg-clip-text text-transparent mb-4 mr-3 relative">
+            <h1 className="text-5xl font-bold bg-gradient-to-r from-purple-600 via-blue-600 to-pink-600 bg-clip-text text-transparent mb-5 mr-4 relative">
               🌍 Vibe Navigator
               <div className="absolute inset-0 bg-gradient-to-r from-purple-600 via-blue-600 to-pink-600 bg-clip-text text-transparent opacity-30 blur-sm -z-10">
                 🌍 Vibe Navigator
               </div>
             </h1>
 
-            <p className="text-2xl text-gray-700 font-medium mb-2">
+            {/* <p className="text-2xl text-gray-700 font-medium mb-2 animate-pulse ml-[-20px]">
               Discover places that match your
               <span className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
                 "cosmic energy"
               </span>
               <span className="animate-pulse ml-1">✨</span>
-            </p>
+            </p> */}
+            <div className="flex justify-center">
+              <p className="text-2xl text-gray-700 font-medium mb-2 animate-pulse -mr-10">
+                Discover places that match your
+                <span className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
+                  "cosmic energy"
+                </span>
+                <span className="animate-pulse ml-1">✨</span>
+              </p>
+            </div>
 
             <p className="text-lg text-gray-600">
               Let the universe guide you to your perfect vibe
